@@ -3,36 +3,50 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>webstudio</title>
+    <title>WebStudio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="./index.html">WebStudio</a>
-        <ul>
-          <li>
-            <a href="#">Studio</a>
+    <header class="page-header">
+      <nav class="page-nav">
+        <a href="./index.html" class="page-logo">WebStudio</a>
+        <ul class="page-nav-list">
+          <li class="page-nav-item">
+            <a href="#" class="nav-link">Studio</a>
           </li>
-          <li>
-            <a href="#">Portfolio</a>
+          <li class="page-nav-item">
+            <a href="#" class="nav-link">Portfolio</a>
           </li>
-          <li>
-            <a href="#">Contacts</a>
+          <li class="page-nav-item">
+            <a href="#" class="nav-link">Contacts</a>
           </li>
         </ul>
       </nav>
-      <address>
-        <ul>
-          <li>
+      <address class="adress">
+        <ul class="adress-list">
+          <li class="adress-item">
             <a href="mailto:info@devstudio.com">info@devstudio.com</a><br />
           </li>
-          <li>
+          <li class="adress-item">
             <a href="tel:+110001111111">+11 (000) 111-11-11</a>
           </li>
         </ul>
       </address>
     </header>
-    <main>
+    <main class="page-main">
       <section>
         <h1>Effective Solutions for Your Business</h1>
         <button type="button">Order Service</button>
@@ -112,6 +126,21 @@
             />
             <h3>Daniel Wilson</h3>
             <p>UI Designer</p>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>Our Portfolio</h2>
+        <ul>
+          <li>
+            <img
+              src="./images/banking.jpg"
+              alt="Banking App"
+              width="360"
+              height="300"
+            />
+            <h3>Banking App</h3>
+            <p>App</p>
           </li>
         </ul>
       </section>

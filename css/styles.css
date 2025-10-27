@@ -1,0 +1,34 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #fff;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.page-header {}
+
+.page-nav {}
+
+.page-logo {}
+
+.page-nav-list {}
+
+.page-nav-item {}
+
+.nav-link {}
+
+.adress {}
+
+.adress-list {}
+
+.adress-item {}
+
+.page-main {}
